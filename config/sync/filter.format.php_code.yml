@@ -1,0 +1,18 @@
+uuid: 7bc590a2-28cf-45ad-a832-0566236a6050
+langcode: en
+status: true
+dependencies:
+  module:
+    - php
+_core:
+  default_config_hash: xwUOj7cXz8VE1JG4Yn8qnm-qp4X0lOoKxfnHRS2i46E
+name: 'PHP code'
+format: php_code
+weight: 11
+filters:
+  php_code:
+    id: php_code
+    provider: php
+    status: true
+    weight: 0
+    settings: {  }

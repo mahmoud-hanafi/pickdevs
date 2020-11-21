@@ -1,0 +1,31 @@
+uuid: 90fad12e-eb47-44a7-b880-e6c6a1ce9c18
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:14452aff-7ff5-4428-921a-f1d495e938b0'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: followus
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:14452aff-7ff5-4428-921a-f1d495e938b0'
+settings:
+  id: 'block_content:14452aff-7ff5-4428-921a-f1d495e938b0'
+  label: 'Follow US'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

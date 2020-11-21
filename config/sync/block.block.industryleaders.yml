@@ -1,0 +1,31 @@
+uuid: e0169692-1d68-45d7-922c-15a119e08be8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c96ddadc-a88d-48bc-9600-f65f9a3d17c6'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: industryleaders
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c96ddadc-a88d-48bc-9600-f65f9a3d17c6'
+settings:
+  id: 'block_content:c96ddadc-a88d-48bc-9600-f65f9a3d17c6'
+  label: 'Industry Leaders'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
